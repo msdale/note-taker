@@ -26,7 +26,7 @@ To install locally, clone this repository to your local environment.  This is a 
 
 ## Usage
 
-To execute the application click on the following link https://msdale-note-taker.herokuapp.com/, or execute locally by starting up the node server with the command; 'npm start', or 'node server.js', then connect to 'localhost:3002'.
+To execute the application click on the following link https://msdale-note-taker.herokuapp.com/, or execute locally by starting up the node server with the command; 'npm start', or 'node server.js' from within the root directory of the cloned repository, then connect to 'localhost:3002'.
 
 See demo of how to use the note-taker application:  
 
@@ -34,12 +34,9 @@ Need an mp4 here...
 
 ## Tests
 
-Used Jest to unit test the four primary class objects; Employee, Manager, Engineer and Intern.  From the root directory execute the following tests:  
+Used Jest to unit test the ./lib/notes.js middleware functionality.  From the root directory execute the following test (there is only one test suite with 4 tests):  
 
-* npm run test Employee
-* npm run test Manager
-* npm run test Engineer
-* npm run test Intern
+* npm run test
   
 Watch this demo to see it done.  
 
@@ -51,5 +48,3 @@ Any questions, please contact Mark Dale.
 
 My email address is: msdaledad@gmail.com
 My github profile is https://github.com/msdale
-The pertinent github repository is https://github.com/msdale/note-taker
-

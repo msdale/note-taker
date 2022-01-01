@@ -32,7 +32,6 @@ test('filter by query', () => {
     }
   ];
   const query = {"title": "Noteable", "text": "other"};
-  console.log("CHECK: " + query.text.includes("other"));
   const result = filterByQuery(query, startingNotes)
   expect(result.length).toEqual(2);
 });
