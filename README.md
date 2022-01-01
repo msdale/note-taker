@@ -4,6 +4,10 @@
 
 A node-based web app for creating and retrieving notes.
 
+
+![screenshot](public/assets/images/note-taker-screenshot.png)
+
+
 ## Table Of Contents
 
 - [note-taker](#note-taker)
@@ -26,11 +30,12 @@ To install locally, clone this repository to your local environment.  This is a 
 
 ## Usage
 
-To execute the application click on the following link https://msdale-note-taker.herokuapp.com/, or execute locally by starting up the node server with the command; 'npm start', or 'node server.js' from within the root directory of the cloned repository, then connect to 'localhost:3002'.
+To execute the application click on the following Heroku deployed link:
+https://msdale-note-taker.herokuapp.com/
 
-See demo of how to use the note-taker application:  
+If you'd like, you can execute the app locally.  Follow the "Installation" instructions above.  Start up the application server with the command; 'npm start', or 'node server.js' from within the root directory of the cloned repository, then connect to... 
 
-Need an mp4 here...
+http://localhost:3002/
 
 ## Tests
 
@@ -38,10 +43,6 @@ Used Jest to unit test the ./lib/notes.js middleware functionality.  From the ro
 
 * npm run test
   
-Watch this demo to see it done.  
-
-Need an mp4 here...
-
 ## Questions
 
 Any questions, please contact Mark Dale.
