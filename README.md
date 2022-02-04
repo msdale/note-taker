@@ -31,7 +31,7 @@ To install locally, clone this repository to your local environment.  This is a 
 ## Usage
 
 To execute the application click on the following Heroku deployed link:
-https://msdale-note-taker.herokuapp.com/
+https://note-taker-msdale.herokuapp.com/
 
 If you'd like, you can execute the app locally.  Follow the "Installation" instructions above.  Start up the application server with the command; 'npm start', or 'node server.js' from within the root directory of the cloned repository, then connect to... 
 
